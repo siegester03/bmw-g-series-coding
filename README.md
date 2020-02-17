@@ -1,26 +1,6 @@
 # bmw-g-series-coding
 Information on coding BMW G series vehicles with a focus on the G20 
 
-## Getting Started
-### Get either Launcher Pro or EsysX. You can also do some of these items via bimmercode expert mode
-Launcher pro - https://mega.nz/#!H9AlBZKQ!-gkBqTBmYDTe_btjbxWhD4ZjvxpHrvv7kh1WesW1l5g
-
-### If using esys and not bimmercode, then continue here once you have EsysX or Launcher Pro
-https://www.bimmerfest.com/forums/sh...php?p=10193333
-
-*NOTE: Do NOT follow the charity donation instructions in the link above. Instead, email tokenmaster directly per the PDF linked earlier*
-
-### Once you have all the software installed, go here
- https://www.bimmerfest.com/forums/sh...d.php?t=983245
-
-### Cheat Code repository
-https://github.com/packetpilot/bmw-f/tree/master/cheats 
-
-If you neeed to manually update them, you can copy them to `C:\Program Files (x86)\TokenMaster\E-Sys Launcher PRO\FDLCodes` on windows
-
-### Selecting Cheat Code Authors
-In Launcher Pro go to Settings -> cheat codes -> and select `Almaretto` and `jokinawa`. Disable the reest
-
 ## Items I have coded with existing cheat codes:
 | Name                         |  ECU                  |
 | ---------------------------- | --------------------- |
