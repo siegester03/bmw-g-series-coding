@@ -30,9 +30,7 @@ Information on coding BMW G series vehicles with a focus on the G20
 | lane change assistance (1/3)               | BDC_BODY    | SPURWECHSEL_ASSISTENT        | aktiv           |
 | lane change assistance (2/3)               | HU_MGU      | SPURWECHSELASSISTENT         | gen_1           |
 | lane change assistance (3/3)               | SAS2        | C_SWA_VORHANDED              | NR001_VORHANDEN |
-| Driver's seat heat distribution (1/3)      | SM2         | SHZ_TYP                      | werte 02        |
-| Driver's seat heat distribution (2/3)      | BDC_BODY    | SITZHEIZUNG_FRONT_schichtung | active          |
-| Driver's seat heat distribution (3/3)      | BDC_BODY    | SITZHEIZUNG_FOND_schichtung  | active          |
+
 
 
 ### Items that I am Testing/Verifying
@@ -52,6 +50,10 @@ Information on coding BMW G series vehicles with a focus on the G20
 * Enable blue lights in headlamps (laser lights) - the US lights have a white bulb there, not blue
 * full LED headlight brightness (EU spec) - after coding my FLM to ECE values nothing changed, and no values related to brightness were altered
 * full Laser light brightness (EU spec) - same reason as above
+* Seat heater distribution. The codes below enable the option, but I don't believe the G20 has the hardware and changing the distrivution causes odd behavior at best. I would not advise using these.
+| Driver's seat heat distribution (1/3)      | SM2         | SHZ_TYP                      | werte 02        |
+| Driver's seat heat distribution (2/3)      | BDC_BODY    | SITZHEIZUNG_FRONT_schichtung | active          |
+| Driver's seat heat distribution (3/3)      | BDC_BODY    | SITZHEIZUNG_FOND_schichtung  | active          |
 
 ### More details can be found on my Bimmerpost forum post
 * https://g20.bimmerpost.com/forums/showthread.php?t=1673049
